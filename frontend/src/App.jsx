@@ -8,7 +8,7 @@ function App() {
 
   useEffect(() => {
     axios
-      .get("http://localhost:3000/todo")
+      .get("https://todo-xg2n.onrender.com/todo")
       .then((response) => setTodos(response.data.todos))
       .catch(() => {
         alert("Error loading Todos");

@@ -27,7 +27,7 @@ function CreateTodo() {
         onClick={() => {
           axios
             .post(
-              "http://localhost:3000/todo",
+              "https://todo-xg2n.onrender.com/todo",
               {
                 todo: todoTitle,
                 description: todoDescription,
